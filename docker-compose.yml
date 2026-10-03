@@ -1,0 +1,5 @@
+services:
+  llm_with_external_knowledge:
+    build: .
+    ports:
+      - 5000:5000
