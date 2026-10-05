@@ -39,7 +39,7 @@ const vectorStore = await QdrantVectorStore.fromExistingCollection(embeddings, {
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Hello",
+    message: "Hello , shameem",
   });
 });
 
